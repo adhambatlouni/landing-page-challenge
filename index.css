@@ -296,6 +296,10 @@ body{
     background-color: whitesmoke;
 }
 
+.flex10 h4{
+    color: hsl(201, 11%, 66%);
+}
+
 .logo{
     padding:2.5rem 10rem 1.5rem 10rem;
     width: 80px;
