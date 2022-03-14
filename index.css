@@ -344,7 +344,7 @@ body{
     margin-right: 1.5rem;
 }
 
-@media (max-width: 375px) {
+@media (min-width: 375px) {
 
     html, body{
         height: 100%;
