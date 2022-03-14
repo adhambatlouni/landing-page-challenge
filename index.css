@@ -496,14 +496,14 @@ body{
     .div12{
         flex-direction: column;
         align-items: center;
-        margin-left: 3.4rem;
+        margin-left: 5rem;
         
     }
 
     .div13{
         margin: 0;
         padding: 0;
-        padding-right: 6rem;
+        padding-right: 7.5rem;
         margin-top: 0.75rem;
         width: 15px;
         height: auto;
