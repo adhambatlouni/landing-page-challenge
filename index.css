@@ -154,7 +154,7 @@ body{
 
 .div4{
     max-width: 38rem;
-    padding: 6rem;
+    margin: 6rem;
 }
 
 .div4 h1{
@@ -343,6 +343,181 @@ body{
 .twitter{
     margin-right: 1.5rem;
 }
+
+@media (max-width: 375px) {
+
+    html, body{
+        height: 100%;
+        overflow: scroll;
+    }
+
+    .div1 {
+        max-width: 20rem;
+    }
+
+    .div1 img {
+        width: 100px;
+    }
+
+    .flex2 { 
+        flex-direction: column;
+        align-items: center;
+        margin-top: 2rem;
+        margin-bottom: 4.5rem;
+    }
+
+    .flex2 button:nth-child(1) {
+        padding: 0.5rem 5rem 0.5rem 5rem;
+        margin: 15px;
+    }
+
+    .flex2 button:nth-child(2) {
+        padding: 0.5rem 5rem 0.5rem 5rem;
+        margin-right: 0.15rem;
+
+    }
+
+    .div2 {
+        max-width: 18rem;
+    }
+
+    .flex4 {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .flex4 img {
+        margin: 2rem;
+    }
+
+    .div3{
+        margin: auto;
+        max-width: 18rem;
+    }
+
+    .div3 h3, p {
+        text-align: center;
+    }
+
+    .div4{
+        margin: 5.5rem 2rem 3rem 2rem;
+    }
+
+    .img2{
+        height: 200px;
+        margin-bottom: 3rem;
+    }
+
+    .div5 p{
+        max-width: 15rem;
+        text-align: center;
+        margin: auto;
+    }
+
+    .div6{
+        flex-direction: column;
+        margin-top: 2.5rem;
+        padding-top: 2.5rem;
+    }
+
+    .part4{
+        padding: 0;
+        margin: 1rem;
+    }
+
+    .part5{
+        padding: 0;
+        margin: 1rem;
+    }
+
+    .part6{
+        padding: 0;
+        margin: 1rem;
+    }
+
+    .flex7{
+        height: 40%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0;
+        margin: 5.5rem 0rem 6rem 0rem;
+    }
+
+    .flex7 img{
+        height: auto;
+    }
+
+    .div8 h1{
+        max-width: 20rem;
+        margin: auto;
+        padding-left: 1.75rem;
+        padding-right: 1.75rem;
+    }
+
+    .div8 p{
+        max-width: 18.2rem;
+        margin: auto;
+        padding: 2rem;
+        padding-bottom: 1rem;
+    }
+
+    .flex9 { 
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 4.5rem;
+    }
+
+    .flex9 button:nth-child(1) {
+        padding: 0.5rem 5rem 0.5rem 5rem;
+        margin: 15px;
+    }
+
+    .flex9 button:nth-child(2) {
+        padding: 0.5rem 5rem 0.5rem 5rem;
+        margin-right: 0.15rem;
+    }
+
+    .flex10{
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 10rem;
+    }
+
+    .logo{
+        width: 60px;
+        height: auto;
+    }
+    .div11{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .div12{
+        flex-direction: column;
+        align-items: center;
+        margin-left: 3.4rem;
+        
+    }
+
+    .div13{
+        margin: 0;
+        padding: 0;
+        padding-right: 6rem;
+        margin-top: 0.75rem;
+        width: 15px;
+        height: auto;
+        
+    }
+
+
+
+
+    
+    
+
+    
+    
 
 
 
