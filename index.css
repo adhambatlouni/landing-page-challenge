@@ -11,12 +11,12 @@ body {
     font-size: 18px;
 }
 
-.img1 {
-    position: absolute;
-}
-
 .flex1 {
+    background-image: url(./images/bg-header-desktop.png);
+    background-repeat: no-repeat;
+    background-position: center top;
     width: 100%;
+    height: 50vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -52,7 +52,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin-bottom: 5rem;
+    margin: 2rem 0 3rem 0;
 }
 
 .flex2 button:nth-child(1) {
@@ -243,8 +243,8 @@ body {
 }
 
 .flex7 img {
-    width: auto;
     height: 2.5rem;
+    width: auto;
 }
 
 .flex8 {
