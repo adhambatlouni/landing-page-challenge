@@ -1,30 +1,32 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&display=swap');
-html, body{
+
+html,
+body {
     height: 100%;
     overflow: scroll;
 }
 
-body{
+body {
     font-family: 'Barlow Semi Condensed', sans-serif;
-    font-size: 18px;    
+    font-size: 18px;
 }
 
-.img1{
+.img1 {
     position: absolute;
 }
 
-.flex1{
+.flex1 {
     width: 100%;
     display: flex;
     justify-content: center;
-    align-items: center;           
+    align-items: center;
 }
 
-.div1{
+.div1 {
     max-width: 35rem;
 }
 
-.div1 img{
+.div1 img {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -33,27 +35,27 @@ body{
     margin-top: 30px;
 }
 
-.div1 h1{
+.div1 h1 {
     font-weight: 600;
-    color:hsl(210, 10%, 33%);
-    text-align: center; 
-    font-size: 2.5rem;   
+    color: hsl(210, 10%, 33%);
+    text-align: center;
+    font-size: 2.5rem;
 }
 
-.div1 p{
+.div1 p {
     font-weight: 400;
     color: hsl(201, 11%, 66%);
     text-align: center;
 }
 
-.flex2{
+.flex2 {
     display: flex;
     flex-direction: row;
     justify-content: center;
     margin-bottom: 5rem;
 }
 
-.flex2 button:nth-child(1){
+.flex2 button:nth-child(1) {
     background-color: hsl(171, 66%, 44%);
     color: white;
     border-radius: 20px;
@@ -62,7 +64,7 @@ body{
     margin-right: 5px;
 }
 
-.flex2 button:nth-child(2){
+.flex2 button:nth-child(2) {
     background-color: hsl(233, 100%, 69%);
     color: white;
     border-radius: 20px;
@@ -71,167 +73,168 @@ body{
     margin-left: 5px;
 }
 
-.flex3{
+.flex3 {
     display: flex;
     justify-content: center;
-    align-items: center;           
+    align-items: center;
 }
 
-.div2{
+.div2 {
     max-width: 33rem;
     margin-bottom: 3rem;
 }
 
-.div2 h1{
+.div2 h1 {
     font-weight: 600;
-    color:hsl(210, 10%, 33%);
+    color: hsl(210, 10%, 33%);
     text-align: center;
 }
 
-.div2 p{
+.div2 p {
     font-weight: 400;
     color: hsl(201, 11%, 66%);
     text-align: center;
 }
 
-.flex4{
+.flex4 {
     display: flex;
     flex-direction: row;
 }
 
-.div3{
+.div3 {
     max-width: 21rem;
     margin-left: 5rem;
 }
 
-.part1{
+.part1 {
     padding: 10px;
 
 }
-.part1 h3{
+
+.part1 h3 {
     font-weight: 600;
-    color:hsl(210, 10%, 33%);   
+    color: hsl(210, 10%, 33%);
 }
 
-.part1 p{
+.part1 p {
     font-weight: 400;
     color: hsl(201, 11%, 66%);
 }
 
-.part2{
+.part2 {
     padding: 10px;
 }
 
-.part2 h3{
+.part2 h3 {
     font-weight: 600;
-    color:hsl(210, 10%, 33%);   
+    color: hsl(210, 10%, 33%);
 }
 
-.part2 p{
+.part2 p {
     font-weight: 400;
     color: hsl(201, 11%, 66%);
 }
 
-.part3{
+.part3 {
     padding: 10px;
 }
 
-.part3 h3{
+.part3 h3 {
     font-weight: 600;
-    color:hsl(210, 10%, 33%);   
+    color: hsl(210, 10%, 33%);
 }
 
-.part3 p{
+.part3 p {
     font-weight: 400;
     color: hsl(201, 11%, 66%);
 }
 
-.flex5{
+.flex5 {
     display: flex;
     align-items: center;
     flex-direction: column;
 }
 
-.div4{
+.div4 {
     max-width: 38rem;
     margin: 6rem;
 }
 
-.div4 h1{
+.div4 h1 {
     font-weight: 600;
-    color:hsl(210, 10%, 33%);
+    color: hsl(210, 10%, 33%);
     text-align: center;
 }
 
-.div4 p{
+.div4 p {
     font-weight: 400;
     color: hsl(201, 11%, 66%);
     text-align: center;
 }
 
-.div5 h1{
+.div5 h1 {
     font-weight: 600;
-    color:hsl(210, 10%, 33%);
+    color: hsl(210, 10%, 33%);
     text-align: center;
 }
 
-.div5 p{
+.div5 p {
     font-weight: 400;
     color: hsl(201, 11%, 66%);
     text-align: center;
 }
 
-.div6{
+.div6 {
     display: flex;
     flex-direction: row;
     justify-content: center;
     margin: 1.5rem;
 }
 
-.div6 h3{
+.div6 h3 {
     font-weight: 600;
-    color:hsl(210, 10%, 33%);
+    color: hsl(210, 10%, 33%);
     text-align: center;
 }
 
-.div6 p{
+.div6 p {
     font-weight: 400;
     color: hsl(201, 11%, 66%);
     text-align: center;
 }
 
-.div6 img{
+.div6 img {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 2rem;
 }
 
-.part4 p{
+.part4 p {
     max-width: 20rem;
 }
 
-.part5 p{
+.part5 p {
     max-width: 20rem;
 }
 
-.part6 p{
+.part6 p {
     max-width: 20rem;
 }
 
-.part4{
+.part4 {
     padding: 3rem;
 }
 
-.part5{
+.part5 {
     padding: 3rem;
 }
 
-.part6{
+.part6 {
     padding: 3rem;
 }
 
-.flex7{
+.flex7 {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -239,40 +242,40 @@ body{
     margin-bottom: 3rem;
 }
 
-.flex7 img{
+.flex7 img {
     width: 6rem;
 }
 
-.flex8{
+.flex8 {
     display: flex;
     align-items: center;
     flex-direction: column;
 }
 
-.div8{
+.div8 {
     max-width: 38rem;
 }
 
-.div8 h1{
+.div8 h1 {
     font-weight: 600;
-    color:hsl(210, 10%, 33%);
+    color: hsl(210, 10%, 33%);
     text-align: center;
 }
 
-.div8 p{
+.div8 p {
     font-weight: 400;
     color: hsl(201, 11%, 66%);
     text-align: center;
 }
 
-.flex9{
+.flex9 {
     display: flex;
     flex-direction: row;
     justify-content: center;
     padding: 1.5rem;
 }
 
-.flex9 button:nth-child(1){
+.flex9 button:nth-child(1) {
     background-color: hsl(171, 66%, 44%);
     color: white;
     border-radius: 20px;
@@ -281,7 +284,7 @@ body{
     margin-right: 5px;
 }
 
-.flex9 button:nth-child(2){
+.flex9 button:nth-child(2) {
     background-color: hsl(233, 100%, 69%);
     color: white;
     border-radius: 20px;
@@ -290,43 +293,43 @@ body{
     margin-left: 5px;
 }
 
-.flex10{
+.flex10 {
     display: flex;
     flex-direction: row;
     background-color: whitesmoke;
 }
 
-.flex10 h4{
+.flex10 h4 {
     color: hsl(201, 11%, 66%);
 }
 
-.logo{
-    padding:2.5rem 10rem 1.5rem 10rem;
+.logo {
+    padding: 2.5rem 10rem 1.5rem 10rem;
     width: 80px;
     height: 60px;
 }
 
-.div10{
+.div10 {
     width: 100%;
     display: flex;
     flex-direction: column;
 }
 
-.div11{
+.div11 {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     max-width: 45rem;
 }
 
-.div12{
+.div12 {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     max-width: 15.5rem;
 }
 
-.div13{
+.div13 {
     display: flex;
     justify-content: space-between;
     margin-right: 20rem;
@@ -336,17 +339,18 @@ body{
     padding-left: 15rem;
 }
 
-.facebook{
+.facebook {
     margin-right: 1.5rem;
 }
 
-.twitter{
+.twitter {
     margin-right: 1.5rem;
 }
 
-@media (min-width: 375px) {
+@media (max-width: 375px) {
 
-    html, body{
+    html,
+    body {
         height: 100%;
         overflow: scroll;
     }
@@ -359,7 +363,7 @@ body{
         width: 100px;
     }
 
-    .flex2 { 
+    .flex2 {
         flex-direction: column;
         align-items: center;
         margin-top: 2rem;
@@ -390,52 +394,53 @@ body{
         margin: 2rem;
     }
 
-    .div3{
+    .div3 {
         margin: auto;
         max-width: 18rem;
     }
 
-    .div3 h3, p {
+    .div3 h3,
+    p {
         text-align: center;
     }
 
-    .div4{
+    .div4 {
         margin: 5.5rem 2rem 3rem 2rem;
     }
 
-    .img2{
+    .img2 {
         height: 200px;
         margin-bottom: 3rem;
     }
 
-    .div5 p{
+    .div5 p {
         max-width: 15rem;
         text-align: center;
         margin: auto;
     }
 
-    .div6{
+    .div6 {
         flex-direction: column;
         margin-top: 2.5rem;
         padding-top: 2.5rem;
     }
 
-    .part4{
+    .part4 {
         padding: 0;
         margin: 1rem;
     }
 
-    .part5{
+    .part5 {
         padding: 0;
         margin: 1rem;
     }
 
-    .part6{
+    .part6 {
         padding: 0;
         margin: 1rem;
     }
 
-    .flex7{
+    .flex7 {
         height: 40%;
         flex-direction: column;
         align-items: center;
@@ -444,25 +449,25 @@ body{
         margin: 5.5rem 0rem 6rem 0rem;
     }
 
-    .flex7 img{
+    .flex7 img {
         height: auto;
     }
 
-    .div8 h1{
+    .div8 h1 {
         max-width: 20rem;
         margin: auto;
         padding-left: 1.75rem;
         padding-right: 1.75rem;
     }
 
-    .div8 p{
+    .div8 p {
         max-width: 18.2rem;
         margin: auto;
         padding: 2rem;
         padding-bottom: 1rem;
     }
 
-    .flex9 { 
+    .flex9 {
         flex-direction: column;
         align-items: center;
         margin-bottom: 4.5rem;
@@ -478,55 +483,35 @@ body{
         margin-right: 0.15rem;
     }
 
-    .flex10{
+    .flex10 {
         flex-direction: column;
         align-items: center;
         padding-bottom: 10rem;
     }
 
-    .logo{
+    .logo {
         width: 60px;
         height: auto;
     }
-    .div11{
+
+    .div11 {
         flex-direction: column;
         align-items: center;
     }
 
-    .div12{
+    .div12 {
         flex-direction: column;
         align-items: center;
-        margin-left: 5rem;
-        
+        margin-left: 3.5rem;
+
     }
 
-    .div13{
+    .div13 {
         margin: 0;
         padding: 0;
         padding-right: 7.5rem;
         margin-top: 0.75rem;
         width: 15px;
         height: auto;
-        margin-left: 1.5rem;
-        
+        margin-left: 1.4rem;
     }
-
-
-
-
-    
-    
-
-    
-    
-
-
-
-
-
-
-
-
-
-
-
