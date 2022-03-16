@@ -243,7 +243,8 @@ body {
 }
 
 .flex7 img {
-    width: 6rem;
+    width: auto;
+    height: 2.5rem;
 }
 
 .flex8 {
@@ -515,3 +516,4 @@ body {
         height: auto;
         margin-left: 1.4rem;
     }
+}
